@@ -1,6 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
@@ -216,3 +216,65 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ========================
+# PowerShell
+# ========================
+*.ps1xml
+*.psd1.bak
+Thumbs.db
+
+# ========================
+# Go
+# ========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/vendor/
+go.sum
+
+# ========================
+# Kubernetes / Helm
+# ========================
+*.kubeconfig
+kubeconfig
+*-secret.yaml
+*-secrets.yaml
+secrets/
+override.yaml
+values.local.yaml
+
+# ========================
+# Secrets & credentials (CRITICAL)
+# ========================
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+*.crt
+secrets.yaml
+secrets.json
+credentials.json
+*credentials*
+*secret*
+.env.local
+.env.*.local
+*.token
+*.password
+azure-creds*
+gcp-creds*
+aws-creds*
+
+# ========================
+# IDE / OS
+# ========================
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+.DS_Store
+desktop.ini
